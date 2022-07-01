@@ -1,0 +1,7 @@
+{
+  "singleQuote": true,
+  "tabWidth": 2,
+  "semi": false,
+  "useTabs": false,
+  "jsx-a11y/anchor-is-valid": false
+}
