@@ -19,14 +19,14 @@ export default function Home() {
 
         <div className={styles.grid}>
           <Link href="/films">
-            <a className={styles.card}>
+            <a id="films_card" className={styles.card}>
               <h2>Films &rarr;</h2>
               <p>All of Star Wars film information</p>
             </a>
           </Link>
 
-          <Link href="/films">
-            <a href="/peoples" className={styles.card}>
+          <Link href="/peoples">
+            <a id="peoples_card" className={styles.card}>
               <h2>Peoples &rarr;</h2>
               <p>
                 All information of person & character within the Star Wars
